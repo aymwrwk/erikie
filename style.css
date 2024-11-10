@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+    
+    /*background-image: url(img/img-main.png);*/
+    background-size: 100%;
+
+}
+
+.henny-penny-regular {
+    font-family: "Chokokutai", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+* {
+   margin: 0px;
+   padding: 0px; 
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+span{
+    color: rgb(165, 10, 10);
+}
+
+.h1-principal{
+    position: absolute;
+    top: 10px ;
+    left: 10px;
+}
+
+video{
+    position: absolute;
+    top: 80px;
+}
+
+.paragrafo{
+    position: absolute;
+    left: 34%;
+    width: 700px;
+}
+
+.paragrafo02{
+    top: 20%;
+    position: absolute;
+    left: 34%;
+    width: 700px;
+}
+
+.paragrafo03{
+    position: absolute;
+    left: 34%;
+    width: 700px;
+}
+
+ /* Estilos para telas com largura de 600px ou mais */
+ @media screen and (min-width: 600px) {
+  
+}
+
+/* Estilos para telas com largura de 400px ou menos */
+@media screen and (max-width: 600px) {
+     video{
+        top: 8% !important;
+      width: 150px !important;
+      position: absolute;
+      right: 63% !important;
+       }
+
+   .h1-principal {
+    left: 5px !important;
+        top: 1% !important;
+        position: absolute !important;
+        color: black !important;
+    }
+
+    .paragrafo{
+       z-index: 10 !important;
+        font-size: 25px !important;
+        left: 42% !important;
+        width: 220px !important;
+        top: 10% !important;
+        position: absolute !important;
+        color: black !important;
+    }
+
+    .paragrafo02{
+        z-index: 10 !important;
+         font-size: 25px !important;
+         left: 42% !important;
+         width: 220px !important;
+         top: 29% !important;
+         position: absolute !important;
+         color: black !important;
+     }
+}
