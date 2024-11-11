@@ -1,16 +1,12 @@
 @charset "UTF-8";
-
 * {
     box-sizing: border-box !important;
 }
 
-
 body{
-    
     overflow-x: hidden !important;
-  background-color: black;
-    /*background-image: url(img/img-main.png);*/
-   
+    background-color: #F5E2ED;
+    
 
 }
 
@@ -19,7 +15,7 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-  
+
 .henny-penny-regular {
     
     font-family: "Henny Penny", system-ui;
@@ -31,28 +27,27 @@ body{
 * {
    margin: 0px;
    padding: 0px; 
-   font-family: "Shadows Into Light Two", cursive;
-   font-weight: bolder;
-   font-style: normal;
-    
-  }
+  
+   
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+}
   
 span{
-    color: rgb(165, 10, 10);
+    color:red;
 }
 
 .h1-principal{
-    color: white !important;
+    color: black!important;
     position: absolute;
     top: 10px ;
     left: 10px;
 }
 
-video{
 
-    position: absolute;
-    top: 80px;
-}
 
 .paragrafo{
     position: absolute;
@@ -81,18 +76,18 @@ video{
 
 
 /* Estilos para telas com largura de 400px ou menos */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     body{
         overflow-x: hidden !important;
-        color: white !important;
+        color: black !important;
     }
 
      .video01{
         border-radius: 0px 0px 20px 0px !important;
-        top: 0% !important;
-      width: 120px !important;
-      position: absolute;
-      right: 72% !important;
+     
+      
+      
+      
        }
 
        .video02{
@@ -103,23 +98,25 @@ video{
        }
 
    .h1-principal {
-    width: 200px;
-    font-size: 28px;
-    left: 43% !important;
-        top: 1% !important;
+    color: #c9acb1 !important;
+    z-index: 5;
+    width: 250px;
+    font-size: 20px;
+    left: 8% !important;
+        top: 7% !important;
         position: absolute !important;
-        color: white !important;
+        
     }
 
     .paragrafo{
-       
+       color: #7D4C66 !important;
        z-index: 10 !important;
         font-size: 25px !important;
-        left: 38% !important;
+        left: 26% !important;
         width: 220px !important;
-        top: 30% !important;
+        top: 20% !important;
         position: absolute !important;
-        color: white !important;
+    
     }
 
     .paragrafo02{
@@ -129,7 +126,7 @@ video{
          width: 320px !important;
          top: 37% !important;
          position: absolute !important;
-         color: white!important;
+         
      }
 
      .paragrafo03{
@@ -139,7 +136,7 @@ video{
          width: 320px !important;
          top: 115% !important;
          position: absolute !important;
-         color: white!important;
+      
      }
 
      .audio01{
@@ -157,12 +154,12 @@ video{
 
      .paragrafo04{
         z-index: 10 !important;
-         font-size: 25px !important;
+         font-size: 20px !important;
          left: 37% !important;
          width: 320px !important;
          top: 144% !important;
          position: absolute !important;
-         color: white!important;
+         
      }
 
      .img01{
