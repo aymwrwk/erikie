@@ -5,7 +5,7 @@
 }
 
 body{
-    overflow-x: hidden !important;
+
     background-color: #FFFFFF;
     
 
@@ -51,24 +51,11 @@ span{
 
 
 
-.paragrafo{
-    position: absolute;
-    left: 34%;
-    width: 700px;
-}
 
-.paragrafo02{
-    top: 20%;
-    position: absolute;
-    left: 34%;
-    width: 700px;
-}
 
-.paragrafo03{
-    position: absolute;
-    left: 34%;
-    width: 700px;
-}
+
+
+
 
 @media screen and (max-width: 600px) {
     html, body {
@@ -93,7 +80,7 @@ span{
      font-size: 22px !important;
   left: 72px;
      width: 100vw !important;
-     top: 80.3% !important;
+     top: 72.3% !important;
      position: absolute !important;
 }
 
@@ -104,7 +91,7 @@ span{
       
       left: 70px;
          width: 100vw !important;
-         top: 84% !important;
+         top: 76% !important;
          position: absolute !important;
     }
 
@@ -117,7 +104,7 @@ span{
          font-size: 22px !important;
       left: 220px;
          width: 100vw !important;
-         top: 80.3% !important;
+         top: 72.3% !important;
          position: absolute !important;
     }
     
@@ -128,7 +115,7 @@ span{
           
           left: 220px;
              width: 100vw !important;
-             top: 84% !important;
+             top: 76% !important;
              position: absolute !important;
         }
     
@@ -171,7 +158,7 @@ span{
   
 
 .gatinho{
-    top: 10%;
+    top: 8%;
     position: absolute !important;
     right: 82% !important;
     width: 80px;
@@ -186,7 +173,7 @@ span{
          font-size: 22px !important;
       left: 0px;
          width: 100vw !important;
-         top: 30% !important;
+         top: 24% !important;
          position: absolute !important;
     }
 
@@ -198,7 +185,7 @@ span{
          font-size: 22px !important;
       left: 0px;
          width: 100vw !important;
-         top: 16% !important;
+         top: 14% !important;
          position: absolute !important;
          
      }
@@ -216,14 +203,14 @@ span{
      .audio01{
         left: 14% !important;
         position: absolute !important;
-        top: 65% !important;
+        top: 55% !important;
      }
      .audio02{
        
         
         left: 14% !important;
         position: absolute !important;
-        top: 75% !important;
+        top: 65% !important;
      }
 
      .paragrafo04{
@@ -236,35 +223,6 @@ span{
          
      }
 
-     .imgmain01{
-        
-        height: 200px;
-        width: 100vw;
-        position: absolute;
-        top:145%;
      
-     }
 
-     .img01{
-        border-radius: 10px;
-        border:4px solid #dfaec8;
-   
-        background-color: #dfaec8 ;
-        height: 200px;
-        width: 290px;
-        position: absolute;
-        top: 170%;
-        left: 15%;
-     }
-     .img02{
-        height: 200px;
-        border-radius: 10px;
-        border:4px solid #dfaec8;
-   
-        background-color: #dfaec8 ;
-        width: 290px;
-        position: absolute;
-        top: 195%;
-        left: 15%;
-     }
 }
