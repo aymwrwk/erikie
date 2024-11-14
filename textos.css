@@ -72,60 +72,55 @@ span{
         overflow-x: hidden !important;
         color: white!important;
     }
+.textosvg01{
+    text-decoration: underline;
+    color: #dfaec8 ;
+    font-weight: bolder !important;
+    padding:35px;
+    z-index: 10 !important;
+     font-size: 22px !important;
+  left: 100px;
+     width: 100vw !important;
+     top: 6% !important;
+     position: absolute !important;
+}
 
- 
+    .svg01{
 
+  
+        z-index: 10 !important;
+      
+      left: 98px;
+         width: 100vw !important;
+         top: 9.8% !important;
+         position: absolute !important;
+    }
 
-    .textosvg01{
-        z-index: 6;
+    .textosvg02{
         text-decoration: underline;
         color: #dfaec8 ;
         font-weight: bolder !important;
         padding:35px;
         z-index: 10 !important;
          font-size: 22px !important;
-      left: 100px;
+      left: 220px;
          width: 100vw !important;
          top: 6% !important;
          position: absolute !important;
     }
     
-        .svg01{
+        .svg02{
     
       
             z-index: 10 !important;
           
-          left: 98px;
+          left: 220px;
              width: 100vw !important;
              top: 9.8% !important;
              position: absolute !important;
         }
     
-        .textosvg02{
-            z-index: 6;
-            text-decoration: underline;
-            color: #dfaec8 ;
-            font-weight: bolder !important;
-            padding:35px;
-            z-index: 10 !important;
-             font-size: 22px !important;
-          left: 220px;
-             width: 100vw !important;
-             top: 6% !important;
-             position: absolute !important;
-        }
-        
-            .svg02{
-        
-          
-                z-index: 10 !important;
-              
-              left: 220px;
-                 width: 100vw !important;
-                 top: 9.8% !important;
-                 position: absolute !important;
-            }
-        
+
 
     .h1-header{
         font-weight: bolder;
@@ -197,13 +192,31 @@ span{
      }
 
      .paragrafo03{
-        z-index: 10 !important;
-         font-size: 25px !important;
-         left: 14% !important;
-         width: 320px !important;
-         top: 115% !important;
-         position: absolute !important;
+        color: #383530 ;
+                 font-weight: bolder !important;
+                 padding:35px;
+                 z-index: 10 !important;
+                  font-size: 22px !important;
+               left: 0px;
+                  width: 100vw !important;
+                  top: 75% !important;
+                  position: absolute !important;
+                  
       
+     }
+
+     .paragrafo04{
+        color: #383530 ;
+        font-weight: bolder !important;
+        padding:35px;
+        z-index: 10 !important;
+         font-size: 22px !important;
+      left: 0px;
+         width: 100vw !important;
+         top: 50% !important;
+         position: absolute !important;
+         
+         
      }
 
      .audio01{
@@ -219,16 +232,7 @@ span{
         top: 65% !important;
      }
 
-     .paragrafo04{
-        z-index: 10 !important;
-         font-size: 20px !important;
-         left: 37% !important;
-         width: 320px !important;
-         top: 144% !important;
-         position: absolute !important;
-         
-     }
-
+     
      
 
 }

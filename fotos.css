@@ -72,10 +72,6 @@ span{
         overflow-x: hidden !important;
         color: white!important;
     }
-
- 
-
-
     .textosvg01{
         z-index: 6;
         text-decoration: underline;
@@ -126,6 +122,18 @@ span{
                  position: absolute !important;
             }
         
+            .imagens{
+                z-index: 6;
+                background-color: #FAF1F4;
+                font-weight: bolder !important;
+                padding:35px;
+                z-index: 10 !important;
+                 font-size: 22px !important;
+    height: 60px;
+                 width: 100vw !important;
+                 top: 40% !important;
+                 position: absolute !important;
+            }
 
     .h1-header{
         font-weight: bolder;
