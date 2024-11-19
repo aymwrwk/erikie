@@ -72,6 +72,45 @@ span{
         overflow-x: hidden !important;
         color: white!important;
     }
+.imagem > img{
+    height: 40vh;
+    left: 10%;
+    width: 80vw;
+    position: absolute;
+    padding: 10px;
+    top: 78%;
+    border-radius: 100px;
+}
+
+    .paragrafo03{
+        color: #383530 ;
+                 font-weight: bolder !important;
+                 padding:35px;
+                 z-index: 10 !important;
+                  font-size: 22px !important;
+               left: 25px;
+                  width: 100vw !important;
+                  top: 105% !important;
+                  position: absolute !important;
+                  
+      
+     }
+
+   
+     .paragrafo04{
+        color: #383530 ;
+        font-weight: bolder !important;
+        padding:35px;
+        z-index: 10 !important;
+         font-size: 22px !important;
+      left: 25px;
+         width: 100vw !important;
+         top: 62% !important;
+         position: absolute !important;
+         
+         
+     }
+     
 .textosvg01{
     text-decoration: underline;
     color: #dfaec8 ;
@@ -179,45 +218,20 @@ span{
     }
 
     .paragrafo02{
-   color: #383530 ;
-        font-weight: bolder !important;
-        padding:35px;
-        z-index: 10 !important;
-         font-size: 22px !important;
-      left: 0px;
-         width: 100vw !important;
-         top: 14% !important;
-         position: absolute !important;
-         
-     }
-
-     .paragrafo03{
-        color: #383530 ;
-                 font-weight: bolder !important;
-                 padding:35px;
-                 z-index: 10 !important;
-                  font-size: 22px !important;
-               left: 0px;
-                  width: 100vw !important;
-                  top: 75% !important;
-                  position: absolute !important;
-                  
-      
-     }
-
-     .paragrafo04{
         color: #383530 ;
         font-weight: bolder !important;
         padding:35px;
         z-index: 10 !important;
-         font-size: 22px !important;
-      left: 0px;
-         width: 100vw !important;
-         top: 50% !important;
-         position: absolute !important;
-         
-         
-     }
+        font-size: 22px !important;
+        left: 0px;
+        width: 100vw !important;
+        top: 14% !important;
+        position: absolute !important;
+              
+          }
+  
+
+    
 
      .audio01{
         left: 14% !important;
