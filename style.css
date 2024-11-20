@@ -57,7 +57,7 @@ font-weight: bolder !important;
 #heart {
     z-index: 10;
     position: absolute;
-    top: 60%;
+    top: 95%;
     left: 175px;
     height: 100px; /* Metade de 200px */
     width: 100px;  /* Metade de 200px */
@@ -225,7 +225,7 @@ span{
          font-size: 22px !important;
       left: 0px;
          width: 100vw !important;
-         top: 24% !important;
+         top: 34% !important;
          position: absolute !important;
     }
 
