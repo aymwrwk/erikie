@@ -130,7 +130,7 @@ span{
      font-size: 22px !important;
   left: 0px;
      width: 100vw !important;
-     top: 24% !important;
+     top: 30% !important;
      position: absolute !important;
 }
 
@@ -150,14 +150,14 @@ color: #383530 ;
  .audio01{
     left: 14% !important;
     position: absolute !important;
-    top: 55% !important;
+    top: 85% !important;
  }
  .audio02{
    
     
     left: 14% !important;
     position: absolute !important;
-    top: 65% !important;
+    top: 95% !important;
  }
 
 
