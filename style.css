@@ -122,6 +122,45 @@ span{
 
 
 
+.paragrafo01{
+    color: #383530 ;
+    font-weight: bolder !important;
+    padding:35px;
+    z-index: 10 !important;
+     font-size: 22px !important;
+  left: 0px;
+     width: 100vw !important;
+     top: 24% !important;
+     position: absolute !important;
+}
+
+.paragrafo02{
+color: #383530 ;
+    font-weight: bolder !important;
+    padding:35px;
+    z-index: 10 !important;
+     font-size: 22px !important;
+  left: 0px;
+     width: 100vw !important;
+     top: 14% !important;
+     position: absolute !important;
+     
+ }
+
+ .audio01{
+    left: 14% !important;
+    position: absolute !important;
+    top: 55% !important;
+ }
+ .audio02{
+   
+    
+    left: 14% !important;
+    position: absolute !important;
+    top: 65% !important;
+ }
+
+
 
 
 
@@ -217,46 +256,7 @@ span{
 }    
 
 
-    .paragrafo01{
-        color: #383530 ;
-        font-weight: bolder !important;
-        padding:35px;
-        z-index: 10 !important;
-         font-size: 22px !important;
-      left: 0px;
-         width: 100vw !important;
-         top: 34% !important;
-         position: absolute !important;
-    }
-
-    .paragrafo02{
-   color: #383530 ;
-        font-weight: bolder !important;
-        padding:35px;
-        z-index: 10 !important;
-         font-size: 22px !important;
-      left: 0px;
-         width: 100vw !important;
-         top: 14% !important;
-         position: absolute !important;
-         
-     }
-
-     .audio01{
-        left: 14% !important;
-        position: absolute !important;
-        top: 90% !important;
-     }
-     .audio02{
-       
-        
-        left: 14% !important;
-        position: absolute !important;
-        top: 100% !important;
-     }
-
-    
-
+ 
      
 
 }
