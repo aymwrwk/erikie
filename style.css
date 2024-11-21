@@ -175,6 +175,18 @@ color: #383530 ;
 }
 
 
+@media screen and (max-width: 320px) {
+    .audio02{
+   
+    
+        left: 14% !important;
+        position: absolute !important;
+        top: 100% !important;
+     }
+    
+}
+
+
 /* Estilos para telas com largura de 400px ou menos */
 @media screen and (max-width: 480px) {
     body{
