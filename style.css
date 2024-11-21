@@ -54,54 +54,6 @@ font-weight: bolder !important;
   
 }
 
-#heart {
-    z-index: 10;
-    position: absolute;
-    top: 95%;
-    left: 175px;
-    height: 100px; /* Metade de 200px */
-    width: 100px;  /* Metade de 200px */
-}
-
-#heart:before, #heart:after {
-    z-index: 10;
-    position: absolute;
-    content: "";
-    left: 35px; /* Metade de 70px */
-    top: 0;
-    width: 35px; /* Metade de 70px */
-    height: 60px; /* Metade de 120px */
-    background-color: #dfaec8;
-    -webkit-border-radius: 25px 25px 0 0; /* Metade de 50px */
-    -moz-border-radius: 25px 25px 0 0;
-    border-radius: 25px 25px 0 0;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-}
-
-#heart:after {
-    z-index: 10;
-    left: 0;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transform-origin: 100% 100%;
-    -moz-transform-origin: 100% 100%;
-    -ms-transform-origin: 100% 100%;
-    -o-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
-}
-
 span{
   padding: 5px;
     background-color: #e9c5d8;
